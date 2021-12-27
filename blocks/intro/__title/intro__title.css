@@ -1,9 +1,10 @@
 .intro__title{
     width: 690px;
 height: 58px;
-left: 48px;
-top: 1182px;
-
+display: flex;
+justify-content: center;
+margin: 114px auto 0 auto;
+padding: 0;
 font-family: Inter;
 font-style: normal;
 font-weight: 900;

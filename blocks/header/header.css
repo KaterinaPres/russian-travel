@@ -1,12 +1,11 @@
-@font-face {
+/*@font-face {
 	font-family: 'Inter';
 	src: local('Inter'),
 		url(/fonts/Inter.ttf);
-}
-.header{
+}*/
+
+.header {
 	display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
 }
 
 @media screen and (min-width: 1280px) {

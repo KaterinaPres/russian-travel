@@ -1,6 +1,8 @@
 .lead__image{
-    width: 928px;
-    height: 580px;
-    left: 48px;
-    top: 488px;
+    display: flex;
+    justify-content: center;
+    width: 984px;
+    height: 615px;
+    padding: 0;
+    margin: 64px auto 0 auto;
 }
