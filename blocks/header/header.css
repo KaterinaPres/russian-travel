@@ -1,5 +1,42 @@
 @font-face {
-	font-family: 'Inter'; 
+	font-family: 'Inter';
 	src: local('Inter'),
-		url(/fonts/Inter.ttf); 
+		url(/fonts/Inter.ttf);
+}
+.header{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+}
+
+@media screen and (min-width: 1280px) {
+	.header {
+		margin: 0;
+		padding: 28px 0 0 48px;
+		background: #2A2C2F;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.header {
+		margin: 0;
+		padding: 28px 0 0 48px;
+		background: #2A2C2F;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.header {
+		margin: 0;
+		padding: 28px 0 0 24px;
+		background: #2A2C2F;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.header {
+		margin: 0;
+		padding: 16px 0 0 16px;
+		background: #2A2C2F;
+	}
 }

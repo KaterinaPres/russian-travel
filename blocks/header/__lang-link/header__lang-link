@@ -1,6 +1,6 @@
 .header__lang-link {
     display: flex;
-    justify-content: flex-end;
+    align-items: flex-end;
     width: 30px;
     height: 28px;
     left: 899px;
@@ -11,8 +11,51 @@
     font-weight: normal;
     font-size: 24px;
     line-height: 28px;
-    /* identical to box height, or 117% */
     text-align: right;
     text-decoration-line: underline;
     color: #FFFFFF;
+}
+
+@media screen and (min-width: 1280px) {
+    .header__logo {
+        width: 176px;
+        height: 52px;
+        display: flex;
+        margin: 0;
+        padding: 0;
+        background: #2A2C2F;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .header__logo {
+        width: 176px;
+        height: 52px;
+        display: flex;
+        margin: 0;
+        padding: 0;
+        background: #2A2C2F;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header__logo {
+        width: 176px;
+        height: 52px;
+        display: flex;
+        margin: 0;
+        padding: 0;
+        background: #2A2C2F;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header__logo {
+        width: 142px;
+        height: 42px;
+        display: flex;
+        margin: 0;
+        padding: 0;
+        background: #2A2C2F;
+    }
 }
