@@ -1,6 +1,5 @@
-.place__image{
-    width: 440px;
-height: 440px;
-left: 48px;
-top: 2937px;
+.place__image {
+    width: 460px;
+    height: 460px;
+    margin: 0 40px 0 0;
 }

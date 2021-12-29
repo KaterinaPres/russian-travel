@@ -5,9 +5,12 @@
 }*/
 
 .header {
+	max-width: 95%;
 	display: flex;
+	margin: 0 auto;
+	padding: 0;
 }
-
+/* 
 @media screen and (min-width: 1280px) {
 	.header {
 		margin: 0;
@@ -38,4 +41,4 @@
 		padding: 16px 0 0 16px;
 		background: #2A2C2F;
 	}
-}
+} */

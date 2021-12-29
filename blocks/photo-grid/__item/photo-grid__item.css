@@ -1,13 +1,21 @@
 /* @media screen and (min-width: 1280px) { */
-    .photo-grid__item {
-        width: 284px;
-        height: 213px;
-        display: grid;
-        gap: 14px;
-        margin: 0 0 0 48px;
-        padding: 0;
-        background: #2A2C2F;
-    }
+.photo-grid__item {
+    width: 284px;
+    height: 213px;
+
+    /* justify-content: center; */
+    /* display: grid; */
+    /* gap: 14px; */
+    
+    margin: 0 auto;
+    padding: 0;
+    background: #2A2C2F;
+}
+
+/* } */
+
+/* .photo-grid__item:first-child{ */
+    /* margin: 92px auto 0 auto; */
 /* } */
 
 /* @media screen and (max-width: 1024px) { 

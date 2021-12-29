@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(../fonts/static/Inter-Regular.ttf);
+    font-weight: normal;
+  }
+
+
 .pages{
     background-color: #2A2C2F;
 }

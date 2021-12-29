@@ -1,0 +1,4 @@
+.place__heading{
+    display: flex;
+    flex-direction: row;
+}

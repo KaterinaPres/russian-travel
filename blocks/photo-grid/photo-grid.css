@@ -1,5 +1,8 @@
-.photo-grid.css{
+.photo-grid{
     display: grid;
-    column-gap: 14px;
-    row-gap: 14px;
+    grid-template-columns: repeat(3, 284px);
+    gap: 14px;
+    justify-content: center;
+    margin: 92px auto 0 auto;
+    padding: 0;
 }

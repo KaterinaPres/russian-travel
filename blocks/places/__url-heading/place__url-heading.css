@@ -1,8 +1,13 @@
 .place__url-heading{
+    /* display: flex; */
     width: 456px;
 height: 12px;
-left: 520px;
-top: 2843px;
+margin: 0;
+padding: 0;
+/* justify-content: flex-end; */
+/* justify-self: end; */
+/* align-content: flex-end; */
+align-items: flex-end;
 
 font-family: Inter;
 font-style: normal;

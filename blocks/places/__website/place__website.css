@@ -1,6 +1,8 @@
-.place__website{
-    width: 440px;
-height: 440px;
-left: 48px;
-top: 2937px;
+.place__website {
+    width: 456px;
+    height: 46px;
+    display: flex;
+    flex-direction: column;
+    margin: auto 0 0 0;
+    padding: 0;
 }

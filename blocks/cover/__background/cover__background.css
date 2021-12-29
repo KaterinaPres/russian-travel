@@ -1,8 +1,12 @@
-.cover__background{
+.cover__background {
     width: 1184px;
-height: 740px;
-left: 48px;
-top: 6001px;
-
-/* background: url(dmitrii-vaccinium-22833-unsplash.jpg); */
+    height: 740px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: top;
+    z-index: -1;
+    position: absolute;
+    /* background: url(dmitrii-vaccinium-22833-unsplash.jpg); */
 }

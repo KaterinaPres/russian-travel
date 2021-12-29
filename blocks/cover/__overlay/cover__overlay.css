@@ -1,9 +1,11 @@
-.cover__overlay{
+.cover__overlay {
     width: 1184px;
-height: 740px;
-left: 48px;
-top: 6001px;
-
-background: #2A2C2F;
-opacity: 0.3;
+    height: 740px;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: top;
+    /* position: absolute; */
+    z-index: -1;
+    background: #2A2C2F;
+    opacity: 0.3;
 }
