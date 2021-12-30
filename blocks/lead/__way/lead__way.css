@@ -1,0 +1,7 @@
+.lead__way{
+    width: 95%;
+    position: absolute;
+    left: 23px;
+    top: 90px;
+    z-index: 2;
+}

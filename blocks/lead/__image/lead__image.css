@@ -1,8 +1,30 @@
 .lead__image{
-    display: flex;
-    justify-content: center;
-    width: 984px;
-    height: 615px;
+    /* display: flex;
+    justify-content: center; */
+    /* max-width: 984px;
+    max-height: 615px;
     padding: 0;
     margin: 64px auto 0 auto;
+    background-color: url(../../../images/lead.svg);
+    position: relative; */
+    /* max-width: 984px;
+    max-height: 615px;
+    margin: 0 auto; */
+    /* object-fit: cover; */
+    /* max-width: 100%;
+    border-radius: 4px;
+    position:relative;
+    z-index: 1; */
+    position: relative;
+    max-width: 984px;
+    max-height: 615px;
+    margin: 0 auto;
+    object-fit: cover;
 }
+
+@media screen and (max-width: 1279px) {
+    .lead__image {
+      max-width: 928px;
+      max-height: 580px;
+    }
+  }
