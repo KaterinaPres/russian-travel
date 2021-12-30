@@ -1,22 +1,22 @@
-.lead__image{
-    position: relative;
-    max-width: 984px;
-    max-height: 615px;
-    margin: 56px auto 0 auto;
-    object-fit: cover;
+.lead__image {
+  position: relative;
+  max-width: 984px;
+  max-height: 615px;
+  margin: 56px auto 0 auto;
+  object-fit: cover;
 }
 
 @media screen and (max-width: 330px) {
-    .lead__image {
-      min-width: 300px;
-      min-height: 290px;
-      margin-top: 40px;
-      margin-right: 0;
-    }
+  .lead__image {
+    min-width: 300px;
+    min-height: 290px;
+    margin-top: 40px;
+    margin-right: 0;
   }
+}
 
-  @media screen and (min-width: 1278px) {
-    .lead__image {
-      margin-top: 64;
-    }
+@media screen and (min-width: 1278px) {
+  .lead__image {
+    margin-top: 64;
   }
+}

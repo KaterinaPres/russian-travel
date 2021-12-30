@@ -1,12 +1,15 @@
 .place__paragraphs {
-   
-    /* max-width: 80%; */
     display: flex;
-    /* flex-wrap: wrap;  */
     flex-direction: column;
-    /* justify-content: space-between;
-    position: relative; */ 
     margin: 0;
     padding: 0;
-    /* width: calc(100vw - 460px); */
+}
+
+@media screen and (max-width: 550px) {
+    .place__paragraphs {
+        max-width: 320px;
+        margin-top: 32px;
+        margin-left: 0;
+
+    }
 }

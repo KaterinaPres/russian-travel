@@ -4,5 +4,13 @@
     background-color: #2A2C2F;
     display: flex;
     flex-direction: row;
-
 }
+
+@media screen and (max-width: 550px){
+    .footer {
+        max-width: 288px;
+        margin-top: 32px;
+        flex-direction: column;
+    }
+  }
+  

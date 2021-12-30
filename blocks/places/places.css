@@ -1,7 +1,36 @@
 .places{
-    margin: 92px 148px 0 148px;
+    margin: 92px auto 0 auto;
     padding: 0;
     max-width: 984px;
+    min-width: 288px;
     /* display: flex; */
     /* justify-content: flex-start; */
 }
+
+/* @media screen and (max-width: 1279px){
+    .photo-grid {
+      margin: 0;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+      padding: 0 48px 92px;
+    }
+  }
+  
+  @media screen and (max-width: 1023px) {
+    .photo-grid {
+      margin: auto;
+      max-width: 720px;
+      grid-template-columns: repeat(2, 1fr);
+      padding: 0 24px 88px;
+      gap: 16px;
+    }
+  
+  }
+   */
+  @media screen and (max-width: 767px){
+    .places {
+        max-width: 288px;
+        margin-top: 64px;
+    }
+  }
+  

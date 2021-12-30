@@ -10,3 +10,12 @@
     justify-self: end;
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 550px) {
+    .footer__copyright {
+        max-width: 288px;
+        margin: 48px auto 24px 16px;
+        font-size: 14px;
+        line-height: 14px;
+    }
+}
