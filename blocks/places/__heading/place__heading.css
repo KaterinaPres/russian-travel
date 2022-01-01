@@ -1,14 +1,13 @@
-.place__heading{
+.place__heading {
     display: flex;
     flex-direction: row;
+    margin: 0 auto;
+    padding: 0;
 }
 
-@media screen and (max-width: 550px){
+@media screen and (max-width: 550px) {
     .place__heading {
         max-width: 288px;
-        margin-top: 32px;
-        margin-left: 0;
         flex-direction: column;
     }
-  }
-  
+}

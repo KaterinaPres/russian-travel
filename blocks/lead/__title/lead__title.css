@@ -2,27 +2,26 @@
     max-width: 720px;
     min-width: 288px;
     padding: 0;
-    margin: 0 auto;
+    margin: 48px auto 0 auto;
     font-family: Inter-Black;
     font-style: normal;
     font-weight: 900;
     font-size: 96px;
     line-height: 100px;
     text-align: center;
-    margin-top: 48px;
     color: #FFFFFF;
 }
 
 @media screen and (max-width: 1279px) {
     .lead__title {
-        margin-top: 48px;
+        margin-top: 56px;
     }
 }
 
 @media screen and (max-width: 580px) {
     .lead__title {
-        min-width: 288px;
-        margin: 48px 16px 16px 16px;
+        max-width: 288px;
+        margin: 48px 16px 0 16px;
         font-size: 40px;
         line-height: 44px;
     }

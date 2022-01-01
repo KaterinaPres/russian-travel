@@ -1,10 +1,8 @@
 .intro__title {
     max-width: 690px;
     min-width: 288px;
-    margin: 0 auto;
+    margin: 0 auto 0 48px;
     padding: 0;
-    margin-top: 92px;
-    margin-left: 148px;
     font-family: Inter-Black;
     font-style: normal;
     font-weight: 900;
@@ -13,17 +11,23 @@
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 550px) {
     .intro__title {
-        margin-top: 64px;
+        /* margin-top: 64px;*/
         margin-left: 16px;
         font-size: 32px;
         line-height: 35px;
     }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 750px) {
     .intro__title {
-        margin-top: 88px;
+        margin-top:24px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .intro__title {
+        margin-top: 148px;
     }
 }
