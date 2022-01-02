@@ -1,16 +1,11 @@
-.intro{
+.intro {
     margin: 92px auto 0 auto;
     padding: 0;
-    /* display: flex;*/
-    justify-content: center; 
 }
 
 @media screen and (max-width: 550px) {
     .intro {
         margin-top: 64px;
-        /* margin-left: 16px; */
-        font-size: 32px;
-        line-height: 35px;
     }
 }
 

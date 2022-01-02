@@ -1,7 +1,7 @@
 .place__content {
     display: flex;
     flex-direction: row;
-    margin: 48px auto 0 auto;
+    margin: 48px 0 0 0;
     padding: 0;
 }
 
@@ -9,5 +9,6 @@
     .place__content {
         max-width: 320px;
         flex-direction: column;
+        margin-top: 32px;
     }
 }

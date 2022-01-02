@@ -1,14 +1,22 @@
 .lead__way {
-    width: 90%;
+    width: 100%;
     position: absolute;
-    left: 23px;
+    left: 0;
     top: 90px;
     z-index: 2;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 550px) {
     .lead__way {
-        left: 10px;
+        left: 0;
         top: 25px;
+    }
+}
+
+@media screen and (min-width: 760px) and (max-width: 1000px) {
+    .lead__way {
+        width: 95%;
+        left: 30px;
+        top: 80px;
     }
 }

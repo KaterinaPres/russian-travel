@@ -13,13 +13,19 @@
   color: #FFFFFF;
 }
 
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 760px) and (max-width: 1000px) {
   .lead__caption {
     margin-left: 24px;
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1001px) and (max-width: 1200px) {
+  .lead__caption {
+    margin-left: 48px;
+  }
+}
+
+@media screen and (min-width: 1201px) {
   .lead__caption {
     margin-left: 148px;
   }

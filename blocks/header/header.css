@@ -6,8 +6,21 @@
 	padding-top: 28px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 550px) {
 	.header {
-		padding-top: 16px;
+		padding: 16px 16px 0 16px;
+	}
+}
+
+@media screen and (max-width: 1001px) {
+	.header {
+		padding: 28px 24px 0 24px;
+	}
+}
+
+@media screen and (min-width: 1001px) {
+	.header {
+		padding-right: 48px;
+		padding-left: 48px;
 	}
 }

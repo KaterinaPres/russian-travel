@@ -1,6 +1,5 @@
 .place__link {
     max-width: 320px;
-    height: 22px;
     margin: 12px 0 0 0;
     padding: 0;
     font-family: Inter-Regular;
@@ -12,6 +11,6 @@
     color: #FFFFFF;
 }
 
-.place__link:hover{
+.place__link:hover {
     opacity: 0.8;
 }

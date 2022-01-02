@@ -1,5 +1,4 @@
 .place__paragraphs {
-    /* max-width: calc(100%-65%); */
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -18,15 +17,14 @@
 @media screen and (min-width: 760px) and (max-width: 1000px) {
     .place__paragraphs {
         max-width: 352px;
-        margin-top: 32px;
         margin-left: 0;
 
     }
 }
+
 @media screen and (min-width: 1001px) and (max-width: 1200px) {
     .place__paragraphs {
         max-width: 456px;
-        margin-top: 32px;
         margin-left: 0;
 
     }
