@@ -12,10 +12,9 @@
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 750px) {
     .place__title {
         max-width: 288px;
-        margin-left: 0;
         font-size: 32px;
         line-height: 35px;
         white-space: nowrap;
@@ -25,7 +24,6 @@
 @media screen and (min-width: 760px) and (max-width: 1000px) {
     .place__title {
         width: 340px;
-        margin-left: 24px;
         margin-right: 58px;
         font-size: 42px;
         line-height: 46px;
@@ -37,7 +35,6 @@
     .place__title {
         width: 440px;
         margin-right: 32px;
-        margin-left: 48px;
         font-size: 72px;
         line-height: 76px;
     }
@@ -45,7 +42,6 @@
 
 @media screen and (min-width: 1270px) {
     .place__title {
-        margin-left: 148px;
         width: 460px;
     }
 }

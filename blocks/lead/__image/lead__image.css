@@ -6,7 +6,7 @@
   object-fit: cover;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 750px) {
   .lead__image {
     min-width: 300px;
     min-height: 200px;

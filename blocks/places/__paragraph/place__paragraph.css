@@ -14,7 +14,7 @@
     margin-bottom: 0;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 750px) {
     .place__paragraph {
         margin-left: 16px;
         margin-right: 16px;

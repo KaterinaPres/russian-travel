@@ -14,7 +14,7 @@
   }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 759px) {
   .photo-grid {
     margin-top: 64px;
     justify-items: center;
