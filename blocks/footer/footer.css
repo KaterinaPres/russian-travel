@@ -1,17 +1,17 @@
 .footer {
+    display: flex;
+    flex-direction: row;
+    max-width: 1184px;
     margin: 92px auto 0 auto;
     padding: 0 48px 24px 48px;
     background-color: #2A2C2F;
-    display: flex;
-    flex-direction: row;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 759px) {
     .footer {
-        max-width: 288px;
-        margin-top: 32px;
         flex-direction: column;
-        margin-right: 16px;
+        margin-top: 64px;
+        padding-left: 0;
     }
 }
 

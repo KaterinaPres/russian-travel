@@ -8,15 +8,30 @@
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 759px) {
   .place {
     max-width: 320px;
     margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
 @media screen and (min-width: 760px) and (max-width: 1000px) {
   .place {
     margin-bottom: 73px;
+    margin-left: 24px;
+  }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1200px) {
+  .place {
+    margin-left: 48px;
+  }
+}
+
+@media screen and (min-width: 1270px) {
+  .place {
+    margin-left: 148px;
   }
 }

@@ -2,9 +2,8 @@
     margin: 0 0 25px 0;
     padding: 0;
     max-width: 484px;
-    font-family: Inter-Regular;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 18px;
     line-height: 163%;
     color: #FFFFFF;
@@ -14,7 +13,7 @@
     margin-bottom: 0;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 759px) {
     .place__paragraph {
         margin-left: 16px;
         margin-right: 16px;
@@ -23,10 +22,9 @@
     }
 }
 
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 760px) and (max-width: 1000px) {
     .place__paragraph {
         font-size: 16px;
         line-height: 163%;
-
     }
 }
