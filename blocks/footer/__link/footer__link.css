@@ -18,7 +18,7 @@
     opacity: 0.8;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 767px) {
     .footer__link {
         max-width: 288px;
         margin-top: 32px;

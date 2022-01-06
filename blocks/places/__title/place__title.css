@@ -10,7 +10,7 @@
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 767px) {
     .place__title {
         max-width: 288px;
         font-size: 32px;
@@ -19,7 +19,7 @@
     }
 }
 
-@media screen and (min-width: 760px) and (max-width: 1000px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     .place__title {
         max-width: 340px;
         margin-right: 58px;
@@ -29,17 +29,19 @@
     }
 }
 
-@media screen and (min-width: 1001px) and (max-width: 1200px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
     .place__title {
-        width: 440px;
+        max-width: 440px;
+        width: 48%;
         margin-right: 32px;
         font-size: 72px;
         line-height: 76px;
     }
 }
 
-@media screen and (min-width: 1270px) {
+@media screen and (min-width: 1280px) {
     .place__title {
-        width: 460px;
+        max-width: 460px;
+        width: 48%;
     }
 }

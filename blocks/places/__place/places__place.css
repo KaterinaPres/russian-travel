@@ -1,0 +1,43 @@
+.places__place {
+  max-width: 984px;
+  margin: 0 auto 80px auto;
+  padding: 0;
+}
+
+.places__place:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .places__place {
+    max-width: 320px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .places__place {
+    max-width: 720px;
+    margin-bottom: 73px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .places__place {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 928px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .places__place {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 984px;
+  }
+}
